@@ -23,3 +23,16 @@ not a month
 '''
 
 #start writing your code below
+
+x = input("Enter a Month: ")
+
+if x == "January" or x == "March" or x == "May" or x == "July" or x == "August" or x == "October" or x == "December":
+    print(31)
+elif x == "April" or x == "June" or x == "September":
+    print(30)
+elif x == "February":
+    print("28 or 29")
+else:
+    print("That's not a month.")
+
+#done
